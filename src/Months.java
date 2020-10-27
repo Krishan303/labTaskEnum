@@ -18,5 +18,7 @@ public enum Months {
         this.NO_OF_DAYS = NO_OF_DAYS;
     }
 
-
+    public int getNO_OF_DAYS() {
+        return NO_OF_DAYS;
+    }
 }
