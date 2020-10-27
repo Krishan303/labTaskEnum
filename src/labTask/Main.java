@@ -1,6 +1,7 @@
 /*   Created by IntelliJ IDEA.
  *   Author: Krishan Chandra Pandey
  *   Date: 27-10-2020
+ *   Time: 11:29
  *   File: Main.java
  */
 
@@ -17,6 +18,6 @@ public class Main {
                 Locale.ENGLISH);
         int noOfDaysInAMonth = new GregorianCalendar().getActualMaximum(Calendar.DAY_OF_MONTH);
         int noOfDaysLeft = noOfDaysInAMonth - currentDate;
-        System.out.println(noOfDaysLeft + "days left in " + currentMonth + "!");
+        System.out.println(noOfDaysLeft + " days left in " + currentMonth + "!");
     }
 }
